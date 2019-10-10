@@ -1,11 +1,11 @@
 {
-  "name": "automl-server",
+  "name": "instagram-bot-rabbit",
   "version": "1.0.0",
-  "description": "a Node js app that analyzes an image after the Instagram scraper has run to determine if it should be `forsale` or not",
+  "description": "a Node js app that scrapes an indivual Instagram post and analyzes the first image to determine if it should be `forsale` or not",
   "main": "index.js",
   "dependencies": {
+    "@google-cloud/automl": "^1.7.0",
     "agenda": "1.0.3",
-    "@google-cloud/automl": "^1.7.0"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
