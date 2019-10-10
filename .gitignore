@@ -1,0 +1,28 @@
+# Logs
+*.log
+npm-debug.log*
+*.log.gz
+
+# winston-daily-rotate-file
+# *-audit.json
+# /logs
+
+# IDE
+.idea
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+ehthumbs.db
+Icon?
+Thumbs.db
+
+node_modules
+
+# Google Storage credentials
+# Onova-3a339323d16a.json
+
+# .env
+.env*
