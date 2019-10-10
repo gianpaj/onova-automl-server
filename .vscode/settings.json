@@ -1,0 +1,12 @@
+{
+  // Enable/disable JavaScript validation
+  "javascript.validate.enable": false,
+  "deepscan.enable": true,
+  "files.exclude": {
+    "**/yarn.lock": true,
+  },
+  "editor.formatOnSave": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+}
